@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+    background-color: rgb(255, 239, 214);
+  }
+  #title{
+    font-family: "Sofia", sans-serif;
+    font-size: 60px;
+    text-align: center;
+  }
+  .TandM{
+    padding: 40px;
+    color:brown;
+    font-family: "Sofia", sans-serif;
+  }
+  .result{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 400px;
+  
+  }
+  .home{
+    position: absolute;
+    top:550px;
+    left:650px;
+    background-color: cadetblue;
+    color: rgb(1, 28, 100);
+    font-size: 20px;
+    padding: 11px;
+    border-radius: 6px;
+    border: 2px solid rgb(3, 25, 99);
+  }
+
+
+.upgrid{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 300px;
+    max-width: 450px;
+    max-height: 350px;
+    display:flex;
+    flex-direction:column;
+    
+}
+.uprow{
+    display:flex;
+    flex-direction: row;
+}
+.upbox{
+   
+    width: 10%;
+    /* height: 80px;
+    mine  */
+    height :40px;
+    /* background-color: blue; */
+    border:2px solid black;
+    margin : 5px;
+    border-radius:10px;
+}
+
+  .downgrid{
+    position :absolute;
+    width: fit-content;
+    height: fit-content ;
+    max-width: 600px;
+    max-height: 600px;
+    /* margin-top: 60px; */
+    margin-right: 60px;
+    margin-left: 60px;
+    right:60px;
+    left:600px;
+    top:100px;
+    /* margin: auto; */
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(204, 201, 201);
+    border: 10px;
+    border-radius: 5px;
+      
+  }
+
+.downrow{
+    display:flex;
+    flex-direction: row;
+}
+.downbox{
+    /* width:120px;
+    height: 120px; */
+    width: 60px;
+    height: 60px;
+    /* background-color: blue; */
+    border:2px;
+    margin : 5px;
+    /* position: relative; */
+    border-radius:8px;
+}
+.bg{
+    background-color: black;
+    display: flex;
+    border: black;
+    border-radius: 5px;
+  }
+  .Shuf{
+    position: absolute;
+    top:550px;
+    left:800px;
+    background-color: cadetblue;
+    color: rgb(1, 28, 100);
+    font-size: 20px;
+    padding: 11px;
+    border-radius: 6px;
+    border: 2px solid rgb(3, 25, 99);
+    
+  }
+  .newGame{
+    position: absolute;
+    top:550px;
+    left:950px;
+    background-color: cadetblue;
+    color: rgb(1, 28, 100);
+    font-size: 20px;
+    padding: 11px;
+    border-radius: 6px;
+    border: 2px solid rgb(3, 25, 99);
+  }
+   
+ 
+
+  #modal {
+    width: 40%;
+    height: 300px;
+    background: #DE5360;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Sofia';
+  }
+  
+  #modal #message {
+    color: #FDE1E3;
+    margin: 0;
+    font-size: 4rem;
+  }
+  
+ .hide {
+    display: none;
+  }
+  #modal #header {
+    text-align: right;
+    padding: 5px 10px;
+  }
+  #modal #header button {
+    padding: 10px;
+    border: 0px;
+    background: #456990;
+    color: #E4FDE1;
+    cursor: pointer;
+  }
+  
+
+  @media(max-width: 767px){
+   
+    .downgrid{
+      right:10px;
+      left:10px;
+      top:450px;
+      margin-left: 0px;
+      /* margin: 0px;   */
+    }
+    .downbox{  
+      width: 47px;
+      height:47px;
+      border:2px;
+      margin : 5px;
+      border-radius:8px;
+  }
+    .upgrid{
+      left:60px;
+      bottom: 650px;
+      /* margin: 0px;   */
+      margin-top: 180px;
+      margin-left: 160px;
+    }
+    .upbox{ 
+      width: 7%;
+      height :25px;
+      border:2px solid black;
+      margin : 5px;
+      border-radius:10px;
+    }
+    .Shuf{
+      position: absolute;
+      top:220px;
+      left:20px;
+      font-size: 15px;  
+    }
+    .newGame{
+      position: absolute;
+      top:160px;
+      left:20px; 
+      font-size: 15px;
+    }
+    .home{
+      position: absolute;
+      top:100px;
+      left:20px;
+      font-size: 15px;  
+    }
+    .TandM{
+      position: absolute;
+      top:320px;
+      left:20px; 
+      font-size: 12px;
+      padding:5px;
+      max-width: 150px;
+    }
+    #modal #message {
+      color: #FDE1E3;
+      margin: 0;
+      font-size: 2rem;
+    }
+    #modal {
+      position: absolute;
+      width: 65%;
+      height: 200px;
+      top:500px;
+    }
+  
+  } 
+  
+ 
+ 
+
+
+
+
+ 
+
+ 
+ 
+ 

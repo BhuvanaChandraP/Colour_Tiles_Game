@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+</head>
+<body>
+        <div class = "res">
+            <h1 class= "font-effect-shadow-multiple" id = "title">Colour Tiles</h1> 
+            <a href="5X5.html"><button class = "Shuf">Restart</button></a>
+            <!-- <a href="5X5.html"><button  class = "newGame">Start Playing with Timer</button></a> -->
+            <button  class = "newGame">Start Playing with Timer</button>
+            <a href ="index.html"><button class = "home">Home</button></a>
+           
+        </div>
+        
+        
+        <div class = "TandM">
+            <h2>Time Left :&nbsp<span class = "time">200</span></h2>
+            <h2>Moves :&nbsp<span class = "moves">0</span></h2>
+            <h2>Your High Score :&nbsp<span id = "highscore"></span></h2>
+        </div>
+        
+        
+        
+         <div class = "whole">
+        <div class="upgrid" id="up3x3">
+            <div class="uprow">
+                <div class= "upbox"></div>
+                <div class= "upbox"></div>
+                <div class= "upbox"></div>
+            </div>
+            <div class="uprow">
+                <div class= "upbox"></div>
+                <div class= "upbox"></div>
+                <div class= "upbox"></div>
+            </div>
+            <div class="uprow">
+                <div class= "upbox"></div>
+                <div class= "upbox"></div>
+                <div class= "upbox"></div>
+            </div> 
+        </div>
+        
+    
+    <div class="downgrid" id="down5x5">
+        <div class="downrow">
+            <div class= "downbox"></div>
+            <div class= "downbox"></div>
+            <div class= "downbox"></div>
+            <div class= "downbox"></div>
+            <div class= "downbox"></div>
+        </div>
+        <div class="downrow">
+            <div class= "downbox"></div>
+            <div  class = "bg"><div class= "downbox"></div>
+            <div class= "downbox"></div>
+            <div class= "downbox"></div>
+            </div>
+            
+            <div class= "downbox"></div>
+        </div>
+        <div class="downrow">
+            <div class= "downbox"></div>
+            <div  class = "bg">
+            <div class= "downbox"></div>
+            <div class= "downbox"></div>
+            <div class= "downbox"></div>
+            </div>
+            
+            <div class= "downbox"></div>
+        </div>
+        <div class="downrow">
+            <div class= "downbox"></div>
+            <div class = "bg">
+            <div class= "downbox"></div>
+            <div class= "downbox"></div>
+            <div class= "downbox"></div>
+            </div>
+           
+            <div class= "downbox"></div>
+        </div>
+        <div class="downrow">
+            <div class= "downbox"></div>
+            <div class= "downbox"></div>
+            <div class= "downbox"></div>
+            <div class= "downbox"></div>
+            <div class= "downbox"></div>
+        </div> 
+    </div>
+    </div>
+
+    <div id="modal" class="hide">
+        <div  id="header">
+            <a  href = "5X5.html"><button id="closeBtn" >X</button></a>
+        </div>
+        <h1 id="message">You won!</h1>
+    </div>
+    <audio id="myAudio">
+        <source src="clap.wav.wav" type="audio/wav">          
+    </audio>
+    <audio id="mouse">
+        <source src="mouseclick.wav" type="audio/wav">          
+    </audio>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
