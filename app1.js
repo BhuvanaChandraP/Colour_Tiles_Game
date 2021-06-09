@@ -119,13 +119,20 @@ function frame() {
         leftVal=0;
         if(isGameWon())
         {
-            
+            for (let i = 0; i < 36; i++) 
+            {
+              
+                downboxes[i].onclick=function(){
+                    return false;
+                     
+                }
+            }
             downSelect.style.opacity = "0.1";
             showModal1();
             playAudio();
             
             //console.log(score);
-            score = 1000+((500-c)*5) -ctr;
+            var score = 3000 -c -ctr;
             var hc = parseInt(localStorage.getItem("highscore1"));
             
             if (score > hc)
@@ -219,7 +226,7 @@ let c = 500;
             
             downSelect.style.opacity = "0.1";
             showModal();
-            for (let i = 0; i < 25; i++) 
+            for (let i = 0; i < 36; i++) 
             {
                 downboxes[i].onclick=function(){
                     return false;
@@ -244,8 +251,8 @@ function showModal(){
     
 }
 function showModal1(){
-    score = 1000+((500-c)*5) -ctr;
-    document.getElementById('message').innerHTML = ' &nbsp &nbsp &nbsp You Won!' +'<br>' + `Your score :  ${1000+((500-c)*5) -ctr}` ;    //your Score = ${ctr}`;
+    score = 3000 -c -ctr;
+    document.getElementById('message').innerHTML = ' &nbsp &nbsp &nbsp You Won!' +'<br>' + `Your score :  ${score}` ;    //your Score = ${ctr}`;
     document.getElementById('modal').classList.remove("hide");
     
 }
