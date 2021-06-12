@@ -132,7 +132,7 @@ function frame() {
             playAudio();
             
             //console.log(score);
-            var score = 3000 -c -ctr;
+            var score = 3000 -(500-c) -ctr;
             var hc = parseInt(localStorage.getItem("highscore1"));
             
             if (score > hc)
@@ -251,7 +251,7 @@ function showModal(){
     
 }
 function showModal1(){
-    score = 3000 -c -ctr;
+    score = 3000 -(500-c) -ctr;
     document.getElementById('message').innerHTML = ' &nbsp &nbsp &nbsp You Won!' +'<br>' + `Your score :  ${score}` ;    //your Score = ${ctr}`;
     document.getElementById('modal').classList.remove("hide");
     
