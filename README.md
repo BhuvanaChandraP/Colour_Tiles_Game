@@ -1,5 +1,6 @@
 # Colour_Tiles_Game
 [Click here to play the game](https://bhuvanachandrap.github.io/Colour_Tiles_Game/)
+
 Problem Statement:
 
 Sivaraman has been tasked with selecting juniors for an online game. But he is too lazy to filter out all the applicants and wants to develop a game to determine how worthy the juniors are.
