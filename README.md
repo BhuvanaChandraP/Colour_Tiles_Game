@@ -29,7 +29,7 @@ Hacker Mode:
  
 Hacker Mode++
 
-- [] Make the game multiplayer where two people can play with the same initial board and reach the same solution.
-- [] Player who completes with the least number of moves wins the game.
-- [] Display the least number of moves after the game ends and maintain a separate high score for two player games.
-- [] Implement difficulty modes with varying grid sizes for multiplayer games.
+- [ ] Make the game multiplayer where two people can play with the same initial board and reach the same solution.
+- [ ] Player who completes with the least number of moves wins the game.
+- [ ] Display the least number of moves after the game ends and maintain a separate high score for two player games.
+- [ ] Implement difficulty modes with varying grid sizes for multiplayer games.
