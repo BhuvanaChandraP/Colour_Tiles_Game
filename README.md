@@ -1,7 +1,7 @@
 # Colour_Tiles_Game
 [Click here to play the game](https://bhuvanachandrap.github.io/Colour_Tiles_Game/)
 
-Problem Statement:
+# Problem Statement:
 
 Sivaraman has been tasked with selecting juniors for an online game. But he is too lazy to filter out all the applicants and wants to develop a game to determine how worthy the juniors are.
 
@@ -13,21 +13,21 @@ To find out who is better at doing this, Sivaraman also wants you to make a scor
 
 Modes:
 
-Normal Mode:
+# Normal Mode:
 
  - [x] Make a 5x5 grid with 6 distinct colors and 24 tiles (one grid has to be empty to allow the tiles to move).
  - [x] Generate a random 3x3 grid for each game.
  - [x] Implement scoring (based on the number of moves taken) and a timer.
  - [x] Include a reset button to start a new game.
  
-Hacker Mode:
+# Hacker Mode:
 
  - [x] Include sounds in the game (for example, victory music after game completion).
  - [x] Create difficulty modes (for example, easy mode can have a 3x3 inner grid and 5x5 outer grid and normal mode can have a 4x4 inner grid and 6x6 outer grid)
  - [x] Using local storage, store and display the name and score of the player with the highest score.
  - [x] Use media queries to make the page responsive on mobile.
  
-Hacker Mode++
+# Hacker Mode++
 
 - [ ] Make the game multiplayer where two people can play with the same initial board and reach the same solution.
 - [ ] Player who completes with the least number of moves wins the game.
